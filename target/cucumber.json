@@ -1,0 +1,344 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-21T01:49:18.303Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5455537000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validating successful place order",
+        "description": "",
+        "id": "pizza-application-place-order-functionality;validating-successful-place-order;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 74079000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 647341000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"MindtekPizzaApp\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MindtekPizzaApp\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Hooks.user_navigates_to_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1174416000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user creates pizza order",
+            "match": {
+              "location": "steps.MindtekPizzaAppSteps.user_creates_pizza_order(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Pizza",
+                  "Small 6 Slices - no toppings"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping1",
+                  "Mushrooms"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping2",
+                  "Extra cheese"
+                ]
+              },
+              {
+                "cells": [
+                  "Quantity",
+                  "1"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "Patel Harsh"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "patel@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Payment",
+                  "Cash on Pickup"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57299000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validates that order is created with message \"Thank you for your order! TOTAL: \" \"1\" \"Small 6 Slices - no toppings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order! TOTAL: \"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Small 6 Slices - no toppings\"",
+                  "offset": 90
+                }
+              ],
+              "location": "steps.MindtekPizzaAppSteps.user_validates_that_order_is_created_with_message(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@RTB-99"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T01:49:25.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4670296000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validating successful place order",
+        "description": "",
+        "id": "pizza-application-place-order-functionality;validating-successful-place-order;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 75866000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 631919000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to \"MindtekPizzaApp\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MindtekPizzaApp\"",
+                  "offset": 18
+                }
+              ],
+              "location": "steps.Hooks.user_navigates_to_application(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1146073000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user creates pizza order",
+            "match": {
+              "location": "steps.MindtekPizzaAppSteps.user_creates_pizza_order(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Pizza",
+                  "Large 10 Slices - 2 toppings"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping1",
+                  "Olives"
+                ]
+              },
+              {
+                "cells": [
+                  "Topping2",
+                  "Salami"
+                ]
+              },
+              {
+                "cells": [
+                  "Quantity",
+                  "2"
+                ]
+              },
+              {
+                "cells": [
+                  "Name",
+                  "John Doe"
+                ]
+              },
+              {
+                "cells": [
+                  "Email",
+                  "john@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Phone",
+                  "987654321"
+                ]
+              },
+              {
+                "cells": [
+                  "Payment",
+                  "Credit Card"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69767000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validates that order is created with message \"Thank you for your order! TOTAL: \" \"2\" \"Large 10 Slices - 2 toppings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your order! TOTAL: \"",
+                  "offset": 50
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Large 10 Slices - 2 toppings\"",
+                  "offset": 90
+                }
+              ],
+              "location": "steps.MindtekPizzaAppSteps.user_validates_that_order_is_created_with_message(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@RTB-99"
+          }
+        ]
+      }
+    ],
+    "name": "Pizza application place order functionality",
+    "description": "",
+    "id": "pizza-application-place-order-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/MindtekPizzaApp.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
